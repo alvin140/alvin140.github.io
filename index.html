@@ -5,12 +5,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Info</title>
-    <link rel="stylesheet" href="mystyle.css">
+
 </head>
 <body>
-    <h1>MY INFORMATION</h1>
-    <P>Name: Alvin C. Abrio<br>Address: Zone 12 Upper Carmen<br>Ciyt:Cagayan De Oro City<br>
-        Zip Code:9000</P>
+    <div class="standard">I am using the standard box model</div>
+    <div class="standard alternate">I am using the alternate box model</div>
     
+    <style>
+        .standard {
+        border: 5px solid teal;
+        background-color: #A5CFE3;
+        padding: 40px;
+        margin: 40px;
+        width: 350px;
+        height: 150px;
+        }
+        .alternate {
+        box-sizing: border-box;
+        width: 440px;
+        height: 240px;
+        }
+        </style>
+        
 </body>
 </html>
